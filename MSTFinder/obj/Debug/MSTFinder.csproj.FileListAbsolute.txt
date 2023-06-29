@@ -1,0 +1,11 @@
+D:\GitHub\MSTFinder\MSTFinder\bin\Debug\MSTFinder.exe.config
+D:\GitHub\MSTFinder\MSTFinder\bin\Debug\MSTFinder.exe
+D:\GitHub\MSTFinder\MSTFinder\bin\Debug\MSTFinder.pdb
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.csproj.AssemblyReference.cache
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.Form1.resources
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.Properties.Resources.resources
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.csproj.GenerateResource.cache
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.csproj.CoreCompileInputs.cache
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.exe
+D:\GitHub\MSTFinder\MSTFinder\obj\Debug\MSTFinder.pdb
