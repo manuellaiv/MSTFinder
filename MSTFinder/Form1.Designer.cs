@@ -66,7 +66,7 @@
             this.label_MSTFinder.BackColor = System.Drawing.Color.Transparent;
             this.label_MSTFinder.Font = new System.Drawing.Font("Lucida Sans", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_MSTFinder.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label_MSTFinder.Location = new System.Drawing.Point(335, 32);
+            this.label_MSTFinder.Location = new System.Drawing.Point(459, 31);
             this.label_MSTFinder.Name = "label_MSTFinder";
             this.label_MSTFinder.Size = new System.Drawing.Size(299, 55);
             this.label_MSTFinder.TabIndex = 0;
