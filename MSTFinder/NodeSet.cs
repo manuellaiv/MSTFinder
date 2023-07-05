@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace MSTFinder{
     class NodesSet{
         private Dictionary<Node, Node> parent;

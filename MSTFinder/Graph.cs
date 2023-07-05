@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 
 namespace MSTFinder{
     class Graph{
@@ -42,7 +43,7 @@ namespace MSTFinder{
             nodes.Add(node);
         }
 
-        public void addEdge(int n1, int n2, int weight){
+        public void addEdge(int n1, int n2, double weight){
             int i1 = -1;
             int i2 = -1;
             for(int i = 0; i < nodes.Count; i++){
@@ -55,9 +56,7 @@ namespace MSTFinder{
             }
 
             Edge e1 = new Edge(nodes[i1], nodes[i2], weight);
-            Edge e2 = new Edge(nodes[i2], nodes[i1], weight);
             edges.Add(e1);
-            edges.Add(e2);
         }
 
         public void deleteNode(int n){
@@ -135,15 +134,23 @@ namespace MSTFinder{
                 for(int i = 0; i < n; i++){
                     lines = reader.ReadLine().Split(' ');
                     for(int j = 0; j < n; j++){
-                        matrix[i,j] = Convert.ToDouble(lines[j], CultureInfo.InvariantCulture);
+                        matrix[i,j] = System.Convert.ToDouble(lines[j], CultureInfo.InvariantCulture);
                     }
                 }
 
                 if (!isValidMatrix(matrix,n)) throw new InvalidDataException("Matrix not valid.");
 
+                for (int i = 0; i < n; i++)
+                {
+                    for (int j = i+1; j < n; j++)
+                    {
+                        matrix[i, j] = 0;
+                    }
+                }
+
                 // add matrix to graph
                 // add nodes
-                for(int i = 0; i < n; i++){
+                for (int i = 0; i < n; i++){
                     nodes.Add(new Node(i));
                 }
 

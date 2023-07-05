@@ -1,5 +1,6 @@
 namespace MSTFinder{
-    class Edge:IComparable<Edge>{
+    class Edge: System.IComparable<Edge>
+    {
         private Node n1;
         private Node n2;
         private double weight;
